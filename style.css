@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
 body{
   background-color: black;
   color: rgb(88, 255, 205);
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Serif KR', serif;
   padding-left:70px;
   padding-right:70px;
 }

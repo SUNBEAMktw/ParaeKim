@@ -6,6 +6,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="../../../style.css">
   <link rel="icon" href="../../../favicon.ico">
+  <link rel="stylesheet"
+      href="//unpkg.com/@highlightjs/cdn-assets@11.2.0/styles/qtcreator-dark.min.css">
+<script src="//unpkg.com/@highlightjs/cdn-assets@11.2.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -16,7 +20,7 @@
   <h2><a href="ch1.html">1장 기본 개념</a></h2>
   <h2><a href="ch1.4.html">1.4 C++의 기초</a></h2>
   <h2>1.4.1 C++ 프로그램의 구성</h2>
-  <p>어떤 헤더 파일(<mark><iostream></mark>과 같은)은 시스템 정의 파일이다.
+  <p>어떤 헤더 파일(<mark>&lt;iostream&gt;</mark>과 같은)은 시스템 정의 파일이다.
   시스템 정의 파일에서는 <mark>.h</mark> 접미사가 생략된다.</p>
   <p>한 헤더 파일이 두 번 이상 중복되지 않게 보장하려면 헤더 파일의 내용을 다음 같은 전처리기 명령 안에 포함하면 된다.</p>
   <pre><code>#ifndef FILENAME_H
